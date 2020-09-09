@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import '../css/Header.css';
 import {Avatar, IconButton} from "@material-ui/core";
 
@@ -14,6 +14,11 @@ import ChatRoundedIcon from '@material-ui/icons/ChatRounded';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 
 const Header = () => {
+
+    useEffect(() => {
+        document.title = "Facebook";
+    });
+
     return (
         <div className="header">
 
@@ -45,7 +50,7 @@ const Header = () => {
 
             <div className="header__right">
                 <div className="header__info">
-                    <Avatar src=""/>
+                    <Avatar src="https://scontent.fyhz1-1.fna.fbcdn.net/v/t1.0-9/69331413_2530402660316090_1814845070944239616_o.jpg?_nc_cat=109&_nc_sid=09cbfe&_nc_ohc=t1w16wvc-_AAX_g4Obi&_nc_ht=scontent.fyhz1-1.fna&oh=f69b0c81f9a8a74aa2580e06a40b7a3a&oe=5F7E8778"/>
                     <h4>Deep</h4>
                 </div>
                 <IconButton>

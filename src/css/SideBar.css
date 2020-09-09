@@ -1,0 +1,37 @@
+.sidebar{
+    width: 300px;
+    padding: 15px;
+    padding-right: 0;
+}
+
+.side-bar-row{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.side-bar-row:hover{
+    background-color: #D8DADF;
+    cursor: pointer;
+}
+
+.side-bar-row:last-child{
+    margin-bottom: 0;
+}
+
+.side-bar-row .MuiAvatar-root{
+    height: 25px;
+    width: 25px;
+}
+
+.side-bar-row .MuiSvgIcon-root{
+    font-size: 25px;
+    color: #1278F3;
+}
+
+.side-bar-row__title{
+    margin-left: 10px;
+    font-size: 15px;
+}
