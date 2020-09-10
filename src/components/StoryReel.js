@@ -6,6 +6,11 @@ const StoryReel = () => {
     return (
         <div className="story-reel">
             <Story
+                image="https://scontent.fyhz1-1.fna.fbcdn.net/v/t1.0-9/69331413_2530402660316090_1814845070944239616_o.jpg?_nc_cat=109&_nc_sid=09cbfe&_nc_ohc=APbd0ndBXZ0AX9yLMhm&_nc_ht=scontent.fyhz1-1.fna&oh=7e665ab809d51b6bbf97fb7e8908c43a&oe=5F7E8778"
+                profile="https://scontent.fyhz1-1.fna.fbcdn.net/v/t1.0-9/69331413_2530402660316090_1814845070944239616_o.jpg?_nc_cat=109&_nc_sid=09cbfe&_nc_ohc=t1w16wvc-_AAX_g4Obi&_nc_ht=scontent.fyhz1-1.fna&oh=f69b0c81f9a8a74aa2580e06a40b7a3a&oe=5F7E8778"
+                title="Deep Muni"
+            />
+            <Story
                 image="https://wallpapercave.com/wp/wp4868478.png"
                 profile="https://dvdbash.files.wordpress.com/2015/11/sherlock-tv-series-season-1-benedict-cumberbatch-holmes-martin-freeman-dr-watson-dvdbash-018.jpg"
                 title="Sherlock Holmes"
