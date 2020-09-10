@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
     box-shadow: 0 5px 17px -7px rgba(0, 0, 0, 0.75);
     cursor: pointer;
-    transition: 100ms ease-in-out;
+    transition: 150ms ease-in-out;
 }
 
 .story:hover{
